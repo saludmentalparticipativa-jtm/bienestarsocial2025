@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotores Urbanos de Bienestar Social - MPA</title>
+    <style>
+        :root {
+            --primary-blue: #1E3A8A; /* Azul oscuro */
+            --secondary-blue: #0284C7; /* Azul medio */
+            --light-blue: #38BDF8; /* Celeste */
+            --bg-light: #F0F9FF; /* Fondo celeste muy claro */
+            --white: #FFFFFF;
+            --text-dark: #0F172A;
+            --text-muted: #475569;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Header & Hero Section */
+        header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--white);
+            padding: 3rem 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid var(--light-blue);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Tarjetas de Contenido */
+        .card {
+            background-color: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(2, 132, 199, 0.1);
+            border-left: 4px solid var(--light-blue);
+        }
+
+        .card h2 {
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .card p {
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+        }
+
+        .card ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+        }
+
+        .card li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Imágenes */
+        .img-container {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border: 2px solid var(--bg-light);
+        }
+
+        .img-caption {
+            font-size: 0.85rem;
+            color: var(--secondary-blue);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        /* Etiquetas / Badges */
+        .badge {
+            display: inline-block;
+            background-color: var(--bg-light);
+            color: var(--secondary-blue);
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            header h1 { font-size: 2.5rem; }
+            .card { padding: 2rem; }
+            .grid-2 { 
+                display: grid; 
+                grid-template-columns: 1fr 1fr; 
+                gap: 1.5rem; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Desarrollo de Promotores Urbanos de Bienestar Social</h1>
+        <p>Un proyecto innovador para transformar la salud mental comunitaria en Arequipa.</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            <h2>Introducción y Objetivo</h2>
+            <p>La salud mental urbana en Arequipa es un eje clave para fortalecer la identidad de la ciudad. Este proyecto busca rescatar el bienestar colectivo a través de un enfoque intercultural y de género, promoviendo el uso de plazas, mercados y barrios tradicionales como espacios terapéuticos.</p>
+            <p><strong>Objetivo General:</strong> Fortalecer el Bienestar Urbano a través del desarrollo y formación de promotores sociales comunitarios y la implementación de estrategias de intervención urbana en redes comunitarias, espacios públicos y políticas locales.</p>
+            <div class="img-container">
+                <img src="https://placehold.co/600x300/0284C7/FFFFFF?text=Foto:+Mesa+de+Di%C3%A1logo" alt="Autoridades y especialistas en la presentación">
+                <p class="img-caption">Presentación institucional del proyecto.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Ruta del Proyecto</h2>
+            <p>El proyecto se desarrolla a lo largo de 11 meses mediante tres momentos clave:</p>
+            
+            <h3>1. Jornadas de Capacitación</h3>
+            <p>Dirigidas a estudiantes y profesionales, abordando temáticas fundamentales:</p>
+            <ul>
+                <li><strong>Modelos de Atención en Salud Mental Comunitaria:</strong> A cargo del Mg. Javier Tejada Merello (26 de septiembre de 2025).</li>
+                <li><strong>Metodología multinivel para trabajar violencia machista:</strong> A cargo del MSc. Cristhian Nina Chávez (09 de octubre de 2025).</li>
+            </ul>
+            <div class="grid-2">
+                <div class="img-container">
+                    <img src="https://placehold.co/300x400/38BDF8/FFFFFF?text=Afiche:+Salud+Mental" alt="Afiche Taller Salud Mental Comunitaria">
+                </div>
+                <div class="img-container">
+                    <img src="https://placehold.co/300x400/38BDF8/FFFFFF?text=Afiche:+Violencia+Machista" alt="Afiche Taller Violencia Machista">
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>2. Jornadas de Intervención en Bienestar Urbano</h2>
+            <p>Una gran feria realizada el 24 de octubre en la Calle Mercaderes (4ta cuadra), desde las 9:00 a.m. hasta las 4:00 p.m. Un espacio gratuito de orientación y apoyo para fortalecer la salud mental.</p>
+            <p><strong>Temáticas de los Stands:</strong> Todos transversalizan la "Violencia".</p>
+            <div>
+                <span class="badge">Adicciones </span>
+                <span class="badge">Suicidio </span>
+                <span class="badge">Ansiedad </span>
+                <span class="badge">Depresión </span>
+                <span class="badge">Autoestima </span>
+                <span class="badge">Estrés </span>
+            </div>
+            <div class="img-container">
+                <img src="https://drive.google.com/uc?export=view&id=1ijqCfer13toGqOrI2RmfacOIDpsW2C8R" alt="Intervención en calle Mercaderes">
+                <p class="img-caption">Intervención en la Calle Mercaderes con participación de universidades.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>3. Jornada de Diálogo (Simposio)</h2>
+            <p>Realizado el 04 de noviembre en el Aula Magna de la UNSA. Este simposio conmemora una década de la Reforma en Salud Mental Comunitaria y la promulgación de la Ley N.º 30364.</p>
+            <ul>
+                <li>Participación de universidades (UNSA, UCSM, UCSP, Continental, UTP, LaSalle).</li>
+                <li>Alianzas con Defensoría del Pueblo, Ministerio Público, Poder Judicial y MIMP.</li>
+                <li>Reflexión crítica sobre avances, desafíos y la construcción de una agenda regional hacia el quinto centenario de Arequipa.</li>
+            </ul>
+            <div class="img-container">
+                <img src="https://placehold.co/600x400/38BDF8/FFFFFF?text=Afiche:+Simposio+UNSA" alt="Afiche del Simposio en la UNSA">
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Enfoques Transversales</h2>
+            <p>El proyecto se sostiene sobre los siguientes pilares de la reforma de salud mental peruana:</p>
+            <ul>
+                <li>Interculturalidad </li>
+                <li>Género </li>
+                <li>Derechos Humanos </li>
+                <li>Intergeneracional </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Gerencia de Desarrollo Social </p>
+        <p>Municipalidad Provincial de Arequipa </p>
+    </footer>
+
+</body>
+</html>
